@@ -1,4 +1,4 @@
-#  Money Manager – Full Stack Project
+#  Money Manager –  Java Full Stack Project
 
 A Java Spring Boot + React full-stack web app for personal finance management. Features include secure login (JWT), income & expense tracking, category management, REST API integration, MySQL database, and Excel report generation. Built with Spring Boot, Hibernate, React.js, Vite, Maven, and Bootstrap, this project demonstrates end-to-end full-stack development with a modern tech stack.
 
