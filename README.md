@@ -1,11 +1,10 @@
-# 💰 Money Manager – Full Stack Project
+#  Money Manager – Full Stack Project
 
-A **personal finance management** web application built using **Java Spring Boot (backend)** and **React + Vite (frontend)**.  
-It helps users track income, expenses, categories, and download reports.
+A Java Spring Boot + React full-stack web app for personal finance management. Features include secure login (JWT), income & expense tracking, category management, REST API integration, MySQL database, and Excel report generation. Built with Spring Boot, Hibernate, React.js, Vite, Maven, and Bootstrap, this project demonstrates end-to-end full-stack development with a modern tech stack.
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Backend (Spring Boot)
 - **Java 17** – Core backend language  
@@ -23,7 +22,7 @@ It helps users track income, expenses, categories, and download reports.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 MoneyManager/
@@ -43,24 +42,24 @@ MoneyManager/
 
 ---
 
-## ⚡ Features
+##  Features
 
-- 🔐 User authentication (JWT based login/register)  
-- 📊 Track **income & expenses** with categories  
-- 🗂️ Category management (Income / Expense categories)  
-- 📥 Export reports to **Excel**  
-- 📈 Dashboard with summary view  
-- 🎨 Responsive UI (Bootstrap + React)  
+-  User authentication (JWT based login/register)  
+-  Track **income & expenses** with categories  
+-  Category management (Income / Expense categories)  
+-  Export reports to **Excel**  
+-  Dashboard with summary view  
+-  Responsive UI (Bootstrap + React)  
 
 ---
 
-## 📝 Run Guide
+##  Run Guide
 
 This guide will help you run the **backend (Spring Boot + MySQL)** and **frontend (React + Vite)** locally.
 
 ---
 
-### 🔧 1. Prerequisites
+###  1. Prerequisites
 
 Make sure you have these installed:
 
@@ -80,7 +79,7 @@ npm -v
 
 ---
 
-### 🗄️ 2. Database Setup (MySQL)
+###  2. Database Setup (MySQL)
 
 1. Open MySQL shell / Workbench.
 2. Create a new database:
@@ -105,7 +104,7 @@ npm -v
 
 ---
 
-### ⚙️ 3. Run Backend (Spring Boot)
+###  3. Run Backend (Spring Boot)
 
 From project root:
 ```bash
@@ -113,7 +112,7 @@ cd moneymanager
 mvn spring-boot:run
 ```
 
-✅ Backend will start at: **http://localhost:8080**
+ Backend will start at: **http://localhost:8080**
 
 Logs:
 ```
@@ -123,7 +122,7 @@ Started MoneyManagerApplication in 5.123 seconds
 
 ---
 
-### 🎨 4. Run Frontend (React + Vite)
+###  4. Run Frontend (React + Vite)
 
 From project root:
 ```bash
@@ -132,11 +131,11 @@ npm install   # only first time
 npm run dev
 ```
 
-✅ Frontend will start at: **http://localhost:5173**
+ Frontend will start at: **http://localhost:5173**
 
 ---
 
-### 🔗 5. Frontend ↔ Backend Connection
+###  5. Frontend ↔ Backend Connection
 
 Frontend communicates with backend via **Axios**.  
 Update base URL in **`moneymanagerwebapp/src/services/api.js`**:
@@ -147,7 +146,7 @@ const API_BASE_URL = "http://localhost:8080";
 
 ---
 
-### 📦 6. Build for Production
+###  6. Build for Production
 
 #### Backend JAR
 ```bash
@@ -165,7 +164,7 @@ Output in `dist/` folder (can be served via Nginx/Apache or linked into backend)
 
 ---
 
-### ✅ 7. API Endpoints
+###  7. API Endpoints
 
 - `POST /register` → Register new user  
 - `POST /login` → Login (JWT auth)  
@@ -176,7 +175,7 @@ Output in `dist/` folder (can be served via Nginx/Apache or linked into backend)
 
 ---
 
-### 🎯 8. Common Issues & Fixes
+###  8. Common Issues & Fixes
 
 - ❌ **Error: mvn not recognized** → Install Maven and add to PATH.  
 - ❌ **MySQL connection refused** → Check DB is running, user/pass correct.  
@@ -188,7 +187,7 @@ Output in `dist/` folder (can be served via Nginx/Apache or linked into backend)
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 1. Fork this repository  
 2. Create feature branch (`git checkout -b feature-name`)  
@@ -198,13 +197,13 @@ Output in `dist/` folder (can be served via Nginx/Apache or linked into backend)
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-Developed with ❤️ by **[Your Name](https://github.com/your-username)**  
-Feel free to connect and contribute! 🚀
+Developed with ❤️ by **[Manohar Draipalli](https://github.com/manohar6317)**  
+Feel free to connect and contribute! 
