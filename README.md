@@ -4,6 +4,25 @@ A Java Spring Boot + React full-stack web app for personal finance management. F
 
 ---
 
+
+## Screenshots
+
+**SignUp page**
+
+![Signup Page Screenshot](images/signup.png)
+
+**Login Page**
+
+![Login Page Screenshot](images/login.png)
+
+**Home Page**
+
+![Home Page Screenshot](images/home.png)
+
+**Browse Page**
+
+![Browse Page Screenshot](images/browse.png)
+
 ##  Tech Stack
 
 ### Backend (Spring Boot)
